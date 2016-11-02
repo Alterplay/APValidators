@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "APValidators"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "APValidators is a codeless solution for form validation. Just connect everything right in Interface Builder and you're done."
   s.homepage         = "https://github.com/Alterplay/APValidators"
   s.license          = 'MIT'
