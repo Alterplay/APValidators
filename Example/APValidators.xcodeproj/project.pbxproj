@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2D412552E5B61AB7844149 /* Pods_APValidators_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C7E2C91C8F4FE7C5B4506 /* Pods_APValidators_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,31 +20,15 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		7136EB2F1C96F999006F1EBA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7136EB2E1C96F999006F1EBA /* Launch Screen.storyboard */; };
-		716CBD5C1C970FAF00C02C33 /* APCharactersCountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD4B1C970FAF00C02C33 /* APCharactersCountValidator.m */; };
-		716CBD601C970FAF00C02C33 /* APEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD531C970FAF00C02C33 /* APEmailValidator.m */; };
-		716CBD611C970FAF00C02C33 /* APRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD551C970FAF00C02C33 /* APRegexValidator.m */; };
-		716CBD621C970FAF00C02C33 /* APValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD571C970FAF00C02C33 /* APValidator.m */; };
-		716CBD631C970FAF00C02C33 /* UITextField+APValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD5A1C970FAF00C02C33 /* UITextField+APValidators.m */; };
-		716CBD661C99703400C02C33 /* APEqualStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD651C99703400C02C33 /* APEqualStringValidator.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B65530777BC9D87FF5857268 /* APStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B655345F83751FE8F168EBFF /* APStringValidator.m */; };
 		B65530AEDF65DBB909104E3B /* APViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = B65534F7EF453C3C5579398A /* APViewController+Alerts.m */; };
-		B65530BA4BEA0273A38D36C0 /* NSPredicate+APValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = B655370D7170E1B905B2DFAF /* NSPredicate+APValidators.m */; };
 		B65530CF57395F19D9952E44 /* APCountryRegexProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553139721B7B9F9A0D3481 /* APCountryRegexProviderTests.m */; };
 		B655312A8048620D322D0BB2 /* APCreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65533CCF2A0951E5D3CA153 /* APCreditCardValidatorTests.m */; };
 		B6553163696DA033BFC70601 /* APCompoundValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B655399C81871529BD9FB901 /* APCompoundValidatorTests.m */; };
 		B65531F151FD57BD7B347DBC /* APCardExpiresTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B65533D2AD051C2DC5C6B7A8 /* APCardExpiresTextField.m */; };
-		B65532D0EC3447F6FD4DAD21 /* APZipValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553FC0CCD39A03E5091652 /* APZipValidator.m */; };
 		B65533C11DD3C535B3EFCDBD /* APRegexValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65538688F9BFE60244A59C0 /* APRegexValidatorTests.m */; };
-		B6553419A93C94439D3359EA /* ZipRegex.plist in Resources */ = {isa = PBXBuildFile; fileRef = B655318BC434076CACF76645 /* ZipRegex.plist */; };
-		B6553479AAD8493775F51D6B /* APCountryRegexProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B65533C5BFC461FB722B3CF8 /* APCountryRegexProvider.m */; };
 		B65534D3C3C918CFB38158FF /* APValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65537501B942649A38950F0 /* APValidatorTests.m */; };
-		B65536264FE0648C827B00BD /* APValidator+SubclassesOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553C46BA355AF730BE9D6D /* APValidator+SubclassesOnly.m */; };
-		B655368CB1EF87DD5EEAFCE2 /* APCompoundValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD4F1C970FAF00C02C33 /* APCompoundValidator.m */; };
-		B65536C64582DDC95563E5EE /* APBlockValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B655316B292FBABDEF813059 /* APBlockValidator.m */; };
-		B65537C056E0C164E1926A77 /* UITextView+APValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553C17E26966AC5CAE1112 /* UITextView+APValidators.m */; };
 		B655386BEB86B7F1A198C714 /* APValidatorsUITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553721054E6EA388E92E5E /* APValidatorsUITextFieldTests.m */; };
-		B65538C377E5601D87EB0CAD /* APCreditCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CBD511C970FAF00C02C33 /* APCreditCardValidator.m */; };
 		B65538E08B96ED3D3F42C0B0 /* APEqualValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553E31064586C50D75B165 /* APEqualValidatorTests.m */; };
 		B65539F60D47CF2E079EF1DB /* APCharactersCountValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65530B6B34785C286999A63 /* APCharactersCountValidatorTests.m */; };
 		B65539FD2267326E8BF37F8D /* APStringValidatorTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553C2EAD833891B710E460 /* APStringValidatorTestCase.m */; };
@@ -56,7 +41,6 @@
 		B6553D4AE3D8A2E9E26E5B8C /* APBlockValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553C9580574E5570EAA9CE /* APBlockValidatorTests.m */; };
 		B6553D9222228ED18F246DA2 /* APEmailValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553A3ABEC2D5322C31DDF4 /* APEmailValidatorTests.m */; };
 		B6553E312870D8AF3A4D3BC2 /* APZipValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65536404B19F0DA0CF93613 /* APZipValidatorTests.m */; };
-		B6553EAFE64C1BDA1FC21E99 /* APRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B65530AE48524DF93BDDD72A /* APRequiredValidator.m */; };
 		C0A4D574877D44B7545C8636 /* Pods_APValidators_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1743715C9716FD671592026 /* Pods_APValidators_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +56,9 @@
 
 /* Begin PBXFileReference section */
 		0C44145423E492F905A190EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16A93D56079CD5B7FB3CBA04 /* Pods-APValidators_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APValidators_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-APValidators_Example/Pods-APValidators_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1817A4421B0A40F6CAD4EC0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5B5C7E2C91C8F4FE7C5B4506 /* Pods_APValidators_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APValidators_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* APValidators_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APValidators_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,49 +76,22 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7136EB2E1C96F999006F1EBA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		716CBD4A1C970FAF00C02C33 /* APCharactersCountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCharactersCountValidator.h; sourceTree = "<group>"; };
-		716CBD4B1C970FAF00C02C33 /* APCharactersCountValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCharactersCountValidator.m; sourceTree = "<group>"; };
-		716CBD4E1C970FAF00C02C33 /* APCompoundValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCompoundValidator.h; sourceTree = "<group>"; };
-		716CBD4F1C970FAF00C02C33 /* APCompoundValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCompoundValidator.m; sourceTree = "<group>"; };
-		716CBD501C970FAF00C02C33 /* APCreditCardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCreditCardValidator.h; sourceTree = "<group>"; };
-		716CBD511C970FAF00C02C33 /* APCreditCardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCreditCardValidator.m; sourceTree = "<group>"; };
-		716CBD521C970FAF00C02C33 /* APEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEmailValidator.h; sourceTree = "<group>"; };
-		716CBD531C970FAF00C02C33 /* APEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEmailValidator.m; sourceTree = "<group>"; };
-		716CBD541C970FAF00C02C33 /* APRegexValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRegexValidator.h; sourceTree = "<group>"; };
-		716CBD551C970FAF00C02C33 /* APRegexValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRegexValidator.m; sourceTree = "<group>"; };
-		716CBD561C970FAF00C02C33 /* APValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APValidator.h; sourceTree = "<group>"; };
-		716CBD571C970FAF00C02C33 /* APValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APValidator.m; sourceTree = "<group>"; };
-		716CBD591C970FAF00C02C33 /* UITextField+APValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+APValidators.h"; sourceTree = "<group>"; };
-		716CBD5A1C970FAF00C02C33 /* UITextField+APValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+APValidators.m"; sourceTree = "<group>"; };
-		716CBD641C99703400C02C33 /* APEqualStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEqualStringValidator.h; sourceTree = "<group>"; };
-		716CBD651C99703400C02C33 /* APEqualStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEqualStringValidator.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B6553051497E2C5E98D4EF99 /* APValidator+SubclassesOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APValidator+SubclassesOnly.h"; sourceTree = "<group>"; };
+		AFFAB328A10F26C831CD739D /* Pods-APValidators_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APValidators_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APValidators_Example/Pods-APValidators_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B65530A2E002C675EF73D6FA /* APStringValidatorTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStringValidatorTestCase.h; sourceTree = "<group>"; };
-		B65530AE48524DF93BDDD72A /* APRequiredValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRequiredValidator.m; sourceTree = "<group>"; };
 		B65530B6B34785C286999A63 /* APCharactersCountValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCharactersCountValidatorTests.m; sourceTree = "<group>"; };
 		B65530FECCE3AA2DF5BC18B4 /* APViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APViewController+Alerts.h"; sourceTree = "<group>"; };
 		B6553139721B7B9F9A0D3481 /* APCountryRegexProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCountryRegexProviderTests.m; sourceTree = "<group>"; };
-		B655316B292FBABDEF813059 /* APBlockValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBlockValidator.m; sourceTree = "<group>"; };
-		B655318BC434076CACF76645 /* ZipRegex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ZipRegex.plist; sourceTree = "<group>"; };
 		B65531D54DA0976AD8408C27 /* APKeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKeyboardController.h; sourceTree = "<group>"; };
 		B65531FC491768F0C953417D /* APIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIndicatorView.m; sourceTree = "<group>"; };
-		B65531FC642451431692652E /* NSPredicate+APValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+APValidators.h"; sourceTree = "<group>"; };
 		B65532338D23C1A1FAABED8D /* APRequiredValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRequiredValidatorTests.m; sourceTree = "<group>"; };
 		B655328725641B60EEB6FBAE /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
-		B65532B515C484DE6EACA1D1 /* APCountryRegexProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCountryRegexProvider.h; sourceTree = "<group>"; };
-		B65533C5BFC461FB722B3CF8 /* APCountryRegexProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCountryRegexProvider.m; sourceTree = "<group>"; };
 		B65533CCF2A0951E5D3CA153 /* APCreditCardValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCreditCardValidatorTests.m; sourceTree = "<group>"; };
 		B65533D2AD051C2DC5C6B7A8 /* APCardExpiresTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCardExpiresTextField.m; sourceTree = "<group>"; };
 		B655340E09885D5DA6C77BA4 /* APKeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKeyboardController.m; sourceTree = "<group>"; };
-		B655345F83751FE8F168EBFF /* APStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStringValidator.m; sourceTree = "<group>"; };
 		B65534CADDE78DE42E40536B /* APIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIndicatorView.h; sourceTree = "<group>"; };
 		B65534F7EF453C3C5579398A /* APViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APViewController+Alerts.m"; sourceTree = "<group>"; };
-		B6553585B534AD271DEEF8A8 /* APStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStringValidator.h; sourceTree = "<group>"; };
-		B655362049D0B57F1E996EC6 /* APBlockValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBlockValidator.h; sourceTree = "<group>"; };
 		B65536404B19F0DA0CF93613 /* APZipValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APZipValidatorTests.m; sourceTree = "<group>"; };
-		B65536688DBA4CBE51B70E8E /* APZipValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APZipValidator.h; sourceTree = "<group>"; };
-		B655370D7170E1B905B2DFAF /* NSPredicate+APValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+APValidators.m"; sourceTree = "<group>"; };
 		B6553721054E6EA388E92E5E /* APValidatorsUITextFieldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APValidatorsUITextFieldTests.m; sourceTree = "<group>"; };
 		B65537346CFB72499D9D2872 /* APCardExpiresTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCardExpiresTextField.h; sourceTree = "<group>"; };
 		B65537501B942649A38950F0 /* APValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APValidatorTests.m; sourceTree = "<group>"; };
@@ -140,17 +99,12 @@
 		B65538688F9BFE60244A59C0 /* APRegexValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRegexValidatorTests.m; sourceTree = "<group>"; };
 		B655399C81871529BD9FB901 /* APCompoundValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCompoundValidatorTests.m; sourceTree = "<group>"; };
 		B6553A3ABEC2D5322C31DDF4 /* APEmailValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEmailValidatorTests.m; sourceTree = "<group>"; };
-		B6553B2E185C248D5B860336 /* APRequiredValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRequiredValidator.h; sourceTree = "<group>"; };
 		B6553B9CE69BF6C7A1FFD1AA /* APValidatorsUITextViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APValidatorsUITextViewTests.m; sourceTree = "<group>"; };
-		B6553C17E26966AC5CAE1112 /* UITextView+APValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+APValidators.m"; sourceTree = "<group>"; };
 		B6553C2EAD833891B710E460 /* APStringValidatorTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStringValidatorTestCase.m; sourceTree = "<group>"; };
-		B6553C46BA355AF730BE9D6D /* APValidator+SubclassesOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APValidator+SubclassesOnly.m"; sourceTree = "<group>"; };
 		B6553C9580574E5570EAA9CE /* APBlockValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBlockValidatorTests.m; sourceTree = "<group>"; };
 		B6553CC52A34271BEEFF1154 /* APCVVTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCVVTextField.m; sourceTree = "<group>"; };
 		B6553E31064586C50D75B165 /* APEqualValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEqualValidatorTests.m; sourceTree = "<group>"; };
-		B6553ECDF9ACD6CD4225D379 /* UITextView+APValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+APValidators.h"; sourceTree = "<group>"; };
 		B6553F073C7E5C42E95E294D /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
-		B6553FC0CCD39A03E5091652 /* APZipValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APZipValidator.m; sourceTree = "<group>"; };
 		B68C64D6A6CC8DF16626956F /* Pods-APValidators_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APValidators_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APValidators_Tests/Pods-APValidators_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1743715C9716FD671592026 /* Pods_APValidators_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APValidators_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79DD3DB704A32D678D5E8DF /* Pods-APValidators_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APValidators_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APValidators_Tests/Pods-APValidators_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +119,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				3B2D412552E5B61AB7844149 /* Pods_APValidators_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +142,8 @@
 			children = (
 				D79DD3DB704A32D678D5E8DF /* Pods-APValidators_Tests.debug.xcconfig */,
 				B68C64D6A6CC8DF16626956F /* Pods-APValidators_Tests.release.xcconfig */,
+				AFFAB328A10F26C831CD739D /* Pods-APValidators_Example.debug.xcconfig */,
+				16A93D56079CD5B7FB3CBA04 /* Pods-APValidators_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -194,7 +151,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				716CBD461C970FAF00C02C33 /* Pod */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for APValidators */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -221,6 +177,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				D1743715C9716FD671592026 /* Pods_APValidators_Tests.framework */,
+				5B5C7E2C91C8F4FE7C5B4506 /* Pods_APValidators_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -297,65 +254,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		716CBD461C970FAF00C02C33 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				716CBD471C970FAF00C02C33 /* Assets */,
-				716CBD491C970FAF00C02C33 /* Classes */,
-			);
-			name = Pod;
-			path = ../Pod;
-			sourceTree = "<group>";
-		};
-		716CBD471C970FAF00C02C33 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		716CBD491C970FAF00C02C33 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				716CBD641C99703400C02C33 /* APEqualStringValidator.h */,
-				716CBD651C99703400C02C33 /* APEqualStringValidator.m */,
-				716CBD4A1C970FAF00C02C33 /* APCharactersCountValidator.h */,
-				716CBD4B1C970FAF00C02C33 /* APCharactersCountValidator.m */,
-				716CBD4E1C970FAF00C02C33 /* APCompoundValidator.h */,
-				716CBD4F1C970FAF00C02C33 /* APCompoundValidator.m */,
-				716CBD501C970FAF00C02C33 /* APCreditCardValidator.h */,
-				716CBD511C970FAF00C02C33 /* APCreditCardValidator.m */,
-				716CBD521C970FAF00C02C33 /* APEmailValidator.h */,
-				716CBD531C970FAF00C02C33 /* APEmailValidator.m */,
-				716CBD541C970FAF00C02C33 /* APRegexValidator.h */,
-				716CBD551C970FAF00C02C33 /* APRegexValidator.m */,
-				716CBD561C970FAF00C02C33 /* APValidator.h */,
-				716CBD571C970FAF00C02C33 /* APValidator.m */,
-				716CBD581C970FAF00C02C33 /* Categories */,
-				B65530AE48524DF93BDDD72A /* APRequiredValidator.m */,
-				B6553B2E185C248D5B860336 /* APRequiredValidator.h */,
-				B655316B292FBABDEF813059 /* APBlockValidator.m */,
-				B655362049D0B57F1E996EC6 /* APBlockValidator.h */,
-				B6553FC0CCD39A03E5091652 /* APZipValidator.m */,
-				B65536688DBA4CBE51B70E8E /* APZipValidator.h */,
-				B655314226B4427691A69842 /* Private */,
-				B655345F83751FE8F168EBFF /* APStringValidator.m */,
-				B6553585B534AD271DEEF8A8 /* APStringValidator.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		716CBD581C970FAF00C02C33 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				716CBD591C970FAF00C02C33 /* UITextField+APValidators.h */,
-				716CBD5A1C970FAF00C02C33 /* UITextField+APValidators.m */,
-				B6553C17E26966AC5CAE1112 /* UITextView+APValidators.m */,
-				B6553ECDF9ACD6CD4225D379 /* UITextView+APValidators.h */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		B65531063052B1FE9BFF5E6C /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,18 +265,6 @@
 				B6553817455B8348BBE15914 /* APCVVTextField.h */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B655314226B4427691A69842 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				B6553C46BA355AF730BE9D6D /* APValidator+SubclassesOnly.m */,
-				B6553051497E2C5E98D4EF99 /* APValidator+SubclassesOnly.h */,
-				B655370D7170E1B905B2DFAF /* NSPredicate+APValidators.m */,
-				B65531FC642451431692652E /* NSPredicate+APValidators.h */,
-				B6553E1BDF5B7038FAEA8CA8 /* CountryRegexLoader */,
-			);
-			path = Private;
 			sourceTree = "<group>";
 		};
 		B655318684924E79002A654E /* APViewController */ = {
@@ -407,16 +293,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		B6553E1BDF5B7038FAEA8CA8 /* CountryRegexLoader */ = {
-			isa = PBXGroup;
-			children = (
-				B65533C5BFC461FB722B3CF8 /* APCountryRegexProvider.m */,
-				B65532B515C484DE6EACA1D1 /* APCountryRegexProvider.h */,
-				B655318BC434076CACF76645 /* ZipRegex.plist */,
-			);
-			path = CountryRegexLoader;
-			sourceTree = "<group>";
-		};
 		B6553EA7455B2F9D281C3CC5 /* KeyboardController */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "APValidators_Example" */;
 			buildPhases = (
+				BAB6F604CD149E2ACBBA9E10 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				1D6617F2837D4FB930856925 /* [CP] Embed Pods Frameworks */,
+				96E2489627A705DCB0CD33BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -482,7 +361,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AP;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Nickolay Sheika";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -518,7 +397,6 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				7136EB2F1C96F999006F1EBA /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				B6553419A93C94439D3359EA /* ZipRegex.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +411,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1D6617F2837D4FB930856925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APValidators_Example/Pods-APValidators_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		58CE7A1F6B248991B9EEE971 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,7 +468,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96E2489627A705DCB0CD33BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APValidators_Example/Pods-APValidators_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB6F604CD149E2ACBBA9E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -585,30 +508,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716CBD621C970FAF00C02C33 /* APValidator.m in Sources */,
 				6003F59E195388D20070C39A /* APAppDelegate.m in Sources */,
-				716CBD611C970FAF00C02C33 /* APRegexValidator.m in Sources */,
-				716CBD601C970FAF00C02C33 /* APEmailValidator.m in Sources */,
-				716CBD631C970FAF00C02C33 /* UITextField+APValidators.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				716CBD5C1C970FAF00C02C33 /* APCharactersCountValidator.m in Sources */,
-				716CBD661C99703400C02C33 /* APEqualStringValidator.m in Sources */,
-				B6553EAFE64C1BDA1FC21E99 /* APRequiredValidator.m in Sources */,
-				B65537C056E0C164E1926A77 /* UITextView+APValidators.m in Sources */,
-				B655368CB1EF87DD5EEAFCE2 /* APCompoundValidator.m in Sources */,
-				B65538C377E5601D87EB0CAD /* APCreditCardValidator.m in Sources */,
-				B65536C64582DDC95563E5EE /* APBlockValidator.m in Sources */,
 				B6553C6CDD1E31E0E459D41D /* APViewController.m in Sources */,
 				B6553AC6BB406B959B1DD36D /* APKeyboardController.m in Sources */,
-				B65532D0EC3447F6FD4DAD21 /* APZipValidator.m in Sources */,
 				B65531F151FD57BD7B347DBC /* APCardExpiresTextField.m in Sources */,
 				B6553CA4FF57A977650ADCF2 /* APIndicatorView.m in Sources */,
 				B6553CFEAE3C90B43336FE9D /* APCVVTextField.m in Sources */,
 				B65530AEDF65DBB909104E3B /* APViewController+Alerts.m in Sources */,
-				B65536264FE0648C827B00BD /* APValidator+SubclassesOnly.m in Sources */,
-				B65530777BC9D87FF5857268 /* APStringValidator.m in Sources */,
-				B65530BA4BEA0273A38D36C0 /* NSPredicate+APValidators.m in Sources */,
-				B6553479AAD8493775F51D6B /* APCountryRegexProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,14 +583,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -716,13 +628,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -738,6 +655,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFAB328A10F26C831CD739D /* Pods-APValidators_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -755,6 +673,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A93D56079CD5B7FB3CBA04 /* Pods-APValidators_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
