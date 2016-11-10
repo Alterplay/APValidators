@@ -3,9 +3,10 @@ use_frameworks!
 
 target 'APValidators_Example' do
   pod 'APValidators', :path => '../'
-end
 
-target 'APValidators_Tests' do
-	pod 'Expecta'
-	pod 'OCMock'
+  	target 'APValidators_Tests' do
+		inherit! :search_paths
+		pod 'Expecta'
+		pod 'OCMock'
+	end
 end

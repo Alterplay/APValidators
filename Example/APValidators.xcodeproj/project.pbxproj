@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		561445AF34D736C6ED1C535B /* Pods_APValidators_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA1BEECC2B634B32F7B9AB7 /* Pods_APValidators_Example.framework */; };
-		5F30B9C31DC997A7009D0E8F /* APBlockValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B21DC997A7009D0E8F /* APBlockValidatorTests.m */; };
-		5F30B9C41DC997A7009D0E8F /* APCharactersCountValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B31DC997A7009D0E8F /* APCharactersCountValidatorTests.m */; };
-		5F30B9C51DC997A7009D0E8F /* APCompoundValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B41DC997A7009D0E8F /* APCompoundValidatorTests.m */; };
-		5F30B9C61DC997A7009D0E8F /* APCountryRegexProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B51DC997A7009D0E8F /* APCountryRegexProviderTests.m */; };
-		5F30B9C71DC997A7009D0E8F /* APCreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B61DC997A7009D0E8F /* APCreditCardValidatorTests.m */; };
-		5F30B9C81DC997A7009D0E8F /* APEmailValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B71DC997A7009D0E8F /* APEmailValidatorTests.m */; };
-		5F30B9C91DC997A7009D0E8F /* APEqualValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B81DC997A7009D0E8F /* APEqualValidatorTests.m */; };
-		5F30B9CA1DC997A7009D0E8F /* APRegexValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B91DC997A7009D0E8F /* APRegexValidatorTests.m */; };
-		5F30B9CB1DC997A7009D0E8F /* APRequiredValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BA1DC997A7009D0E8F /* APRequiredValidatorTests.m */; };
-		5F30B9CC1DC997A7009D0E8F /* APStringValidatorTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BC1DC997A7009D0E8F /* APStringValidatorTestCase.m */; };
-		5F30B9CD1DC997A7009D0E8F /* APValidatorsUITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BD1DC997A7009D0E8F /* APValidatorsUITextFieldTests.m */; };
-		5F30B9CE1DC997A7009D0E8F /* APValidatorsUITextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BE1DC997A7009D0E8F /* APValidatorsUITextViewTests.m */; };
-		5F30B9CF1DC997A7009D0E8F /* APValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BF1DC997A7009D0E8F /* APValidatorTests.m */; };
-		5F30B9D01DC997A7009D0E8F /* APZipValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9C01DC997A7009D0E8F /* APZipValidatorTests.m */; };
+		5F00D8FC1DD43D2500096651 /* APBlockValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B21DC997A7009D0E8F /* APBlockValidatorTests.m */; };
+		5F00D8FD1DD43D2500096651 /* APCharactersCountValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B31DC997A7009D0E8F /* APCharactersCountValidatorTests.m */; };
+		5F00D8FE1DD43D2500096651 /* APCompoundValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B41DC997A7009D0E8F /* APCompoundValidatorTests.m */; };
+		5F00D8FF1DD43D2500096651 /* APCountryRegexProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B51DC997A7009D0E8F /* APCountryRegexProviderTests.m */; };
+		5F00D9001DD43D2500096651 /* APCreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B61DC997A7009D0E8F /* APCreditCardValidatorTests.m */; };
+		5F00D9011DD43D2500096651 /* APEmailValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B71DC997A7009D0E8F /* APEmailValidatorTests.m */; };
+		5F00D9021DD43D2500096651 /* APEqualValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B81DC997A7009D0E8F /* APEqualValidatorTests.m */; };
+		5F00D9031DD43D2500096651 /* APRegexValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9B91DC997A7009D0E8F /* APRegexValidatorTests.m */; };
+		5F00D9041DD43D2500096651 /* APRequiredValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BA1DC997A7009D0E8F /* APRequiredValidatorTests.m */; };
+		5F00D9051DD43D2D00096651 /* APStringValidatorTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BC1DC997A7009D0E8F /* APStringValidatorTestCase.m */; };
+		5F00D9061DD43D2D00096651 /* APValidatorsUITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BD1DC997A7009D0E8F /* APValidatorsUITextFieldTests.m */; };
+		5F00D9071DD43D2D00096651 /* APValidatorsUITextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BE1DC997A7009D0E8F /* APValidatorsUITextViewTests.m */; };
+		5F00D9081DD43D2D00096651 /* APValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9BF1DC997A7009D0E8F /* APValidatorTests.m */; };
+		5F00D9091DD43D2D00096651 /* APZipValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9C01DC997A7009D0E8F /* APZipValidatorTests.m */; };
 		5F30B9D11DC997A7009D0E8F /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F30B9C11DC997A7009D0E8F /* Tests-Info.plist */; };
 		5F30B9D41DC997AD009D0E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F30B9D21DC997AD009D0E8F /* InfoPlist.strings */; };
 		5F30B9F01DC997E3009D0E8F /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30B9D71DC997E3009D0E8F /* APAppDelegate.m */; };
@@ -513,27 +513,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F30B9F91DC997E3009D0E8F /* APCVVTextField.m in Sources */,
-				5F30B9C51DC997A7009D0E8F /* APCompoundValidatorTests.m in Sources */,
-				5F30B9CB1DC997A7009D0E8F /* APRequiredValidatorTests.m in Sources */,
-				5F30B9CC1DC997A7009D0E8F /* APStringValidatorTestCase.m in Sources */,
-				5F30B9CF1DC997A7009D0E8F /* APValidatorTests.m in Sources */,
-				5F30B9C31DC997A7009D0E8F /* APBlockValidatorTests.m in Sources */,
-				5F30B9CD1DC997A7009D0E8F /* APValidatorsUITextFieldTests.m in Sources */,
-				5F30B9C91DC997A7009D0E8F /* APEqualValidatorTests.m in Sources */,
-				5F30B9C61DC997A7009D0E8F /* APCountryRegexProviderTests.m in Sources */,
-				5F30B9CE1DC997A7009D0E8F /* APValidatorsUITextViewTests.m in Sources */,
-				5F30B9C41DC997A7009D0E8F /* APCharactersCountValidatorTests.m in Sources */,
 				5F30B9F31DC997E3009D0E8F /* APKeyboardController.m in Sources */,
 				5F30B9F21DC997E3009D0E8F /* APViewController+Alerts.m in Sources */,
-				5F30B9C81DC997A7009D0E8F /* APEmailValidatorTests.m in Sources */,
-				5F30B9C71DC997A7009D0E8F /* APCreditCardValidatorTests.m in Sources */,
 				5F30B9FA1DC997E3009D0E8F /* APIndicatorView.m in Sources */,
-				5F30B9CA1DC997A7009D0E8F /* APRegexValidatorTests.m in Sources */,
 				5F30B9F01DC997E3009D0E8F /* APAppDelegate.m in Sources */,
 				5F30B9F81DC997E3009D0E8F /* APCardExpiresTextField.m in Sources */,
 				5F30B9FB1DC997E3009D0E8F /* APViewController.m in Sources */,
 				5F30B9F61DC997E3009D0E8F /* main.m in Sources */,
-				5F30B9D01DC997A7009D0E8F /* APZipValidatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +527,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F00D8FE1DD43D2500096651 /* APCompoundValidatorTests.m in Sources */,
+				5F00D9041DD43D2500096651 /* APRequiredValidatorTests.m in Sources */,
+				5F00D9051DD43D2D00096651 /* APStringValidatorTestCase.m in Sources */,
+				5F00D9081DD43D2D00096651 /* APValidatorTests.m in Sources */,
+				5F00D8FC1DD43D2500096651 /* APBlockValidatorTests.m in Sources */,
+				5F00D9061DD43D2D00096651 /* APValidatorsUITextFieldTests.m in Sources */,
+				5F00D9021DD43D2500096651 /* APEqualValidatorTests.m in Sources */,
+				5F00D8FF1DD43D2500096651 /* APCountryRegexProviderTests.m in Sources */,
+				5F00D9071DD43D2D00096651 /* APValidatorsUITextViewTests.m in Sources */,
+				5F00D8FD1DD43D2500096651 /* APCharactersCountValidatorTests.m in Sources */,
+				5F00D9011DD43D2500096651 /* APEmailValidatorTests.m in Sources */,
+				5F00D9001DD43D2500096651 /* APCreditCardValidatorTests.m in Sources */,
+				5F00D9031DD43D2500096651 /* APRegexValidatorTests.m in Sources */,
+				5F00D9091DD43D2D00096651 /* APZipValidatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
