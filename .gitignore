@@ -27,5 +27,8 @@ DerivedData
 Carthage
   
 # CocoaPods
-Pods/
+Pods/Expecta
+Pods/OCMock
+Pods/Target Support Files/Expecta
+Pods/Target Support Files/OCMock
 Podfile.lock
