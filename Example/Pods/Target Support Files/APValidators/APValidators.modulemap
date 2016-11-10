@@ -1,6 +1,0 @@
-framework module APValidators {
-  umbrella header "APValidators-umbrella.h"
-
-  export *
-  module * { export * }
-}
