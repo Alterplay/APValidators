@@ -14,7 +14,6 @@ build/
 xcuserdata/
 *.xccheckout
 *.xcuserstate
-*.xcworkspace
 profile
 *.moved-aside
 DerivedData
